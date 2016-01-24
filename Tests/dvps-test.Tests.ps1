@@ -2,7 +2,7 @@ Import-Module -Force $PSScriptRoot\..\dvps-test.ps1
 
 Describe 'Remove-StringLatinCharacters' {
     
-    Context 'Strict mode' { 
+    Context 'Function' { 
 
         Set-StrictMode -Version latest
         
